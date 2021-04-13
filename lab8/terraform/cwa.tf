@@ -24,9 +24,9 @@ resource "aws_cloudwatch_metric_alarm" "Music-ReadCapacityUnitsLimit-BasicAlarm"
   alarm_description   = ""
   alarm_actions = [
   "arn:aws:sns:us-east-1:799098231639:dynamodb"]
-  dimensions {
-    TableName = "Music"
-  }
+  //  dimensions {
+  //    TableName = "Music"
+  //  }
 }
 
 resource "aws_cloudwatch_metric_alarm" "Music-WriteCapacityUnitsLimit-BasicAlarm" {
@@ -41,9 +41,9 @@ resource "aws_cloudwatch_metric_alarm" "Music-WriteCapacityUnitsLimit-BasicAlarm
   alarm_description   = ""
   alarm_actions = [
   "arn:aws:sns:us-east-1:799098231639:dynamodb"]
-  dimensions {
-    TableName = "Music"
-  }
+  //  dimensions {
+  //    TableName = "Music"
+  //  }
 }
 
 resource "aws_cloudwatch_metric_alarm" "jia-test-dead-letter-queue-not-empty-alarm" {
@@ -56,8 +56,8 @@ resource "aws_cloudwatch_metric_alarm" "jia-test-dead-letter-queue-not-empty-ala
   statistic           = "Average"
   threshold           = "1.0"
   alarm_description   = "Items are on the jia-test-dead-letter-queue queue"
-  dimensions {
-    QueueName = "jia-test-dead-letter-queue"
-  }
+  //  dimensions {
+  //    QueueName = "jia-test-dead-letter-queue"
+  //  }
 }
 

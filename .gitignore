@@ -1,2 +1,5 @@
 */node_modules/
 /lab5/uuid/
+/lab8/terraform/.terraform.lock.hcl
+/lab8/terraform/terraform.tfstate
+/lab8/terraform/.terraform/providers/registry.terraform.io/hashicorp/aws/3.36.0/darwin_amd64/terraform-provider-aws_v3.36.0_x5

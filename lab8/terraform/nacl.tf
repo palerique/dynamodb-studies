@@ -20,8 +20,5 @@ resource "aws_network_acl" "acl-0293cff8433355f9f" {
     protocol   = "-1"
     cidr_block = "0.0.0.0/0"
   }
-
-  tags {
-  }
 }
 
